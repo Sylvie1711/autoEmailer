@@ -1,13 +1,5 @@
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-"Sr.
- No.",Company,Email,Person Name
+
+"Sr.No.",Company,Email,Person Name
 1,_G10X,suraj.shylaja@g10x.com,Suraj Shylaja
 2,_G10X,vijaya.talluri@g10x.com,Vijaya Talluri
 3,2iSolutions,nidhi.vishnoi@2isolutions.com,Nidhi
@@ -34,8 +26,7 @@
 24,ACCELQ,deepti.n@accelq.com,Deepti N
 25,accenture,campus.recruitment@accenture.com,-
 26,accenture,debapriya.nag@accenture.com,-
-27,accenture,"idc.recruitment.application@accentur
- e.com",-
+27,accenture,"idc.recruitment.application@accenture.com",-
 28,accenture,jain.nihit@accenture.com,-
 29,accenture,naaga.jagadeesh@accenture.com,-
 30,accenture,nidhi.tulsi@accenture.com,-
@@ -101,18 +92,13 @@
 90,Admin Data Intensity,dshankar@dataintensity.com,Dhinesh Shankar
 91,Admin DhanInfo,hr@dhaninfo.biz,Kajal Gupta
 92,Admin Eka Software Solutions,vani.sathvik@ekaplus.com,Vani Sathvik
-93,"Admin Imperative Business
- Ventures",kalpana@theimperative.in,Kalpana Kanhere
-94,Admin Inflow Technologies,"nancy.varghese@inflowtechnologies.c
- om",Nancy Varghese
-95,"Admin Micropro Software
- Solutions",rbagaddeo@microproindia.com,Rupali Bagaddeo
+93,"Admin Imperative BusinessVentures",kalpana@theimperative.in,Kalpana Kanhere
+94,Admin Inflow Technologies,"nancy.varghese@inflowtechnologies.com",Nancy Varghese
+95,"Admin Micropro Software Solutions",rbagaddeo@microproindia.com,Rupali Bagaddeo
 96,Admin Open Destinations,isle@opendestinations.com,Isle Fernandes
-97,"Admin Pentagon System and
- Services",atin.karmokar@pentagon.co.in,Atin Karmokar
+97,"Admin Pentagon System and Services",atin.karmokar@pentagon.co.in,Atin Karmokar
 98,Admin Prescient Technologies,deeptiw@pre-scient.com,Deepti Waghmare
-99,"Admin Sakhatech Information
- Systems",thejaswini.kulkarni@sakhatech.com,Thejaswini Kulkarni
+99,"Admin Sakhatech Information Systems",thejaswini.kulkarni@sakhatech.com,Thejaswini Kulkarni
 100,Admin SCIO Health Analytics,sprabakar@sciohealthanalytics.com,Sindhu Prabakar
 101,Admin Tech Connect Services,monika@techretail.in,Monika Soutiyal
 102,Administration Blubirch,yashwanths@blubirch.com,Yashwanth Salian
