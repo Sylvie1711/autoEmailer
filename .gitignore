@@ -1,0 +1,6 @@
+.env
+node_modules
+.env.example
+.env.local
+.env.production
+error.log

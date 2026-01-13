@@ -1,0 +1,5 @@
+GMAIL_USER= //main account
+GMAIL_APP_PASSWORD= //16 digit password generated from app specific password
+FROM_ALIASES= /// use your aliases separated by commas
+MAX_PER_RUN= // maximum number of emails to send per run
+REOON_API_KEY= // your Reoon API key for email verification
