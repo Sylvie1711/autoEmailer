@@ -201,15 +201,56 @@
     "maanoj@betterplace.co.in": "VERIFICATION_FAILED_invalid",
     "ambrish.kanungo@beyondkey.com": "VERIFICATION_FAILED_catch_all",
     "pmishra@bhavnacorp.com": "VERIFICATION_FAILED_invalid",
-    "pradeep@bidgely.com": "2026-01-13T19:37:07.966Z"
+    "pradeep@bidgely.com": "2026-01-13T19:37:07.966Z",
+    "ankur.kulkarni@bigbasket.com": "2026-01-15T12:59:05.720Z",
+    "parool.duggal@bijnis.com": "VERIFICATION_FAILED_invalid",
+    "ksatyanarayana@bilt.com": "VERIFICATION_FAILED_catch_all",
+    "ranji.abraham@bilt.com": "VERIFICATION_FAILED_catch_all",
+    "s.bhattacherjee@bilt.com": "VERIFICATION_FAILED_catch_all",
+    "varun.wadhwa@birdeye.com": "VERIFICATION_FAILED_catch_all",
+    "mayank.jain@birlasoft.com": "VERIFICATION_FAILED_catch_all",
+    "vishnu.vardhan@bitlasoft.com": "VERIFICATION_FAILED_invalid",
+    "rupali.veerkar@bitwiseglobal.com": "VERIFICATION_FAILED_catch_all",
+    "shalaka.kothawale@bizom.com": "VERIFICATION_FAILED_catch_all",
+    "aniket.deb@bizongo.in": "VERIFICATION_FAILED_catch_all",
+    "sujata@bizongo.in": "VERIFICATION_FAILED_catch_all",
+    "kinjal@biztechconsultancy.com": "VERIFICATION_FAILED_catch_all",
+    "shilpi@blackbuck.com": "VERIFICATION_FAILED_catch_all",
+    "sucharita@blackbuck.com": "VERIFICATION_FAILED_catch_all",
+    "radhika.boppana@blackstraw.ai": "VERIFICATION_FAILED_invalid",
+    "jaslieen.baghh@blancco.com": "2026-01-15T13:08:54.274Z"
   },
   "progress": {
-    "lastIndex": 304,
-    "lastRunDate": "2026-01-13",
-    "sentToday": 1
+    "lastIndex": 324,
+    "lastRunDate": "2026-01-15",
+    "sentToday": 2
   },
   "domainLastSent": {
-    "bidgely.com": 1768333027966
+    "bidgely.com": 1768333027966,
+    "bigbasket.com": 1768481945720,
+    "blancco.com": 1768482534274
   },
-  "cooldownQueue": []
+  "cooldownQueue": [
+    {
+      "srno": "402",
+      "company": "bigbasket.com",
+      "email": "sangita.chatterjee@bigbasket.com",
+      "name": "-",
+      "_fromQueue": true
+    },
+    {
+      "srno": "403",
+      "company": "bigbasket.com",
+      "email": "tanuja.tewari@bigbasket.com",
+      "name": "-",
+      "_fromQueue": true
+    },
+    {
+      "srno": "404",
+      "company": "bigbasket.com",
+      "email": "vinaykumarp@bigbasket.com",
+      "name": "-",
+      "_fromQueue": true
+    }
+  ]
 }

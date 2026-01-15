@@ -4,6 +4,7 @@ import nodemailer from "nodemailer"
 import "dotenv/config"
 import validator from "email-validator"
 import { verifyEmail, isEmailSafeToSend, logVerificationResult } from "./emailVerifier.js"
+import { verifyEmail as smtpVerify } from "./smtpVerifier.js"
 
 console.log('sending mails');
 
@@ -220,8 +221,21 @@ async function sendMails() {
       continue
     }
 
-    // Verify email with Reoon API
-    console.log("🔍 Verifying email:", lead.email)
+    // SMTP pre-filter: Check if email definitively doesn't exist
+    console.log("🔍 SMTP pre-filter checking:", lead.email)
+    const smtpResult = await smtpVerify(lead.email)
+    
+    if (smtpResult.status === 'invalid') {
+      console.log(`✅ SMTP: Email definitively invalid (API call saved):`, lead.email)
+      // Mark as sent to avoid re-processing
+      sentLog[lead.email] = 'SMTP_INVALID'
+      if (!isFromQueue) lastIndex++  // Only advance if not from queue
+      saveProgress()
+      continue
+    }
+    
+    // Verify email with Reoon API (only if SMTP didn't reject it)
+    console.log("🔍 SMTP passed - Verifying with Reoon API:", lead.email)
     const verificationResult = await verifyEmail(lead.email)
     await logVerificationResult(lead.email, verificationResult)
     
